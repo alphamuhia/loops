@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Perimeter Calculator</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="perimeter.js"></script>
+</head>
+<body>
+    <header></header>
+        <div class="container">
+            <h1>Calculation Of The Area And Perimeter Of A Rectangle</h1>
+        </div>
+    </header>
+    <form>
+    <div class="container1">
+        <h2>Rectangle Perimeter Calculator</h2>
+        <label for="width">Width:</label>
+        <input type="number" id="width" placeholder="Enter width" required>
+        <label for="height">Height:</label>
+        <input type="number" id="height" placeholder="Enter height" required>
+        <button onclick="calculatePerimeter()">Calculate Perimeter</button>
+        <p id="result"></p>
+    </div>
+    </form>
+    <br>
+
+    <br>
+    <form>
+    <div class="container2"></div>
+        <h2>Rectangle Area Calculator</h2>
+        <label for="width">Width:</label>
+        <input type="number" id="width" placeholder="Enter width" required>
+        <label for="height">Height:</label>
+        <input type="number" id="height" placeholder="Enter height" required>
+        <button onclick="calculateArea()">Calculate Area</button>
+        <p id="result"></p>
+    </div>
+    </form>
+</body>
+</html>
